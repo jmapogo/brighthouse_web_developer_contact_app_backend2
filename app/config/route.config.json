@@ -1,0 +1,29 @@
+{
+  "routes": [
+    {
+      "route": "/v1/contacts/:contactid",
+      "method": "GET",
+      "controller": "../controllers/v1/contacts/contacts-controller"
+    },
+    {
+      "route": "/v1/contacts",
+      "method": "GET",
+      "controller": "../controllers/v1/contacts/contacts-controller"
+    },
+    {
+      "route": "/v1/contacts/:contactid",
+      "method": "PUT",
+      "controller": "../controllers/v1/contacts/contacts-controller"
+    },
+    {
+      "route": "/v1/contacts",
+      "method": "POST",
+      "controller": "../controllers/v1/contacts/contacts-controller"
+    },
+    {
+      "route": "/v1/contacts/:contactid",
+      "method": "DELETE",
+      "controller": "../controllers/v1/contacts/contacts-controller"
+    }
+  ]
+}
